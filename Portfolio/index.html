@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@500&display=swap');
+        </style>
+        
+</head>
+<body>
+     
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+           <!-- <a href="#services">Services</a>-->
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section  class="home" id="home">
+        <div style="color: black;" class="home-content">
+            <h3>Hello, its Me</h3>
+            <h1 >Safa Akbar</h1>
+            <h3>I am a <span class="multiple-text">Software Engineer</span></h3>
+           <!--  <p>Experienced full stack developer skilled in front-end and back-end development. Expertise in creating intuitive user interfaces using HTML, CSS, and JavaScript, coupled with proficiency in server-side programming languages and frameworks. </p> -->
+
+            <div class="social-media">
+            <a href="mailto:safaakbar5@gmail.com"><i class='bx bxl-gmail' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/programmer_alert/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/safa-akbar/"><i class='bx bxl-linkedin' ></i></a>
+             </div>
+        <a href='resume2.docx' class="btn">Download Resume</a>
+    </div>
+   
+    <div class="home-img">
+        
+<img class="first-img" src="photos/safa1.png"  alt="Myphoto">
+
+<!-- <img class="second-img"  src="photos/safa2.png"  alt="Myphoto"> -->
+
+</div>
+
+    </section>
+
+    <section style="color: black;" class="about" id="about">
+        <div class="about-img">
+          <img src="photos/safa.png" alt="">
+        </div>
+
+        <div class="about-content">
+              <h2 class="heading" style="color: rgb(75, 75, 75);">About <span>Me</span></h2>
+              <h3 style="text-align: center; color: #33c20e;">Frontend Developer!</h3>
+              <p>As a graduate student at the University of Illinois Urbana Champaign, I bring a blend of strong software development, data analytics, and project experience. Eager to leverage these skills, I am excited about the opportunity to join the industry. With a commitment to delivering high-quality digital solutions, I am driven to contribute to impactful technological change while gaining hands-on experience in frontend development. Ready to collaborate with a talented team, I aim to create innovative and user-friendly interfaces for web applications and websites, translating design concepts into responsive and visually appealing experiences. With a solid foundation in HTML, CSS, and JavaScript, coupled with excellent problem-solving abilities and communication skills, I am prepared to thrive in a professional environment and contribute to the industry.</p>
+               <a href="#" class="btn">Read More</a>
+            </div>
+     </section>
+
+     <section class="portfolio" id="portfolio">
+         <h2 class="heading">Latest <span>Project</span></h2>
+          <portfolio class="portfolio-container">
+              <div class="portfolio-box">
+                  <img src="photos/portfolio1.jpg" alt="">
+                  <div class="portfolio-layer">
+                  <h4>NETFLIX CLONE</h4>
+                  <p>Used REACTs Component based structure and context API to capture User data. Users could stream videos by picking their favorites by the help of the carousels and sliders. </p>
+                  <a href=""></a>
+              </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="photos/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>STUDENT COURSE RESGISTRATION PORTAL</h4>
+                <p>Built a student portal where students select courses and the Admin has to either accept or reject the pending request. </p>
+                <a href=""></a>
+            </div>
+        </div>
+
+              <div class="portfolio-box">
+                <img src="photos/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>SPOTIFY</h4>
+                <p>Built a Spotify Clone using HTML, CSS AND JavaScript. Users could select their favorite music and play it by clicking different buttons. </p>
+                <a href=""></a>
+            </div>
+        </div>
+
+
+            <div class="portfolio-box">
+                <img src="photos/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>YOUR GUIDE</h4>
+                <p>Build a Tourist accomodation website using MERN Stack. </p>
+                <a href=""></a>
+            </div>
+        </div>
+
+
+
+            <div class="portfolio-box">
+                <img src="photos/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Eat Mostly Greens</h4>
+                <p>Built a Customized, Ecommerce website to sell Diet services to different groups of people.</p>
+                <a href=""></a>
+                  </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="photos/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Pohnchao</h4>
+                <p>Built a website called Pohnchao, used different plugins and customized each of them to meet customer requirements. </p>
+                <a href=""></a>
+            </div>
+        </div>
+
+          </portfolio>
+     </section>
+
+    <section class="contact" id="contact">
+         <h2 class="heading">Contact <span>Me!</span></h2>
+         <form action="#" method="POST">
+
+        
+             <div class="input-box">
+                 <input type="text" placeholder="Full Name">
+                 <input type="email" placeholder="Email Address">
+             </div>
+
+             <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+           <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+           <input type="submit" value="Send Message" class="btn">
+
+         </form>
+        </section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Safa | All Rights Reserved. </p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
